@@ -37,3 +37,29 @@ halt().
 ```
 brew install rebar3
 ```
+
+# Hello World Erlang
+
+hello.erl
+
+```
+-module(hello).
+-export([start/0]).
+
+start() ->
+  io:format("Hello world-n").
+```
+
+compile 하기
+
+```
+$ erlc hello.erl
+
+
+$ ls
+hello.beam hello.erl
+
+
+$ erl -noshell -s hello start -s init stop
+Hello world-n%
+```
