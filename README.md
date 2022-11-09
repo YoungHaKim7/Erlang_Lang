@@ -23,3 +23,9 @@ brew install erlang
 ```
 $ erl
 ```
+
+- exit 종료하는 방법
+
+```
+halt().
+```
