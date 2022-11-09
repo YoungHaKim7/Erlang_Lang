@@ -30,6 +30,12 @@ $ erl
 halt().
 ```
 
+or
+
+```
+q().
+```
+
 <br>
 
 # Lvim Setting
