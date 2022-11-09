@@ -29,3 +29,11 @@ $ erl
 ```
 halt().
 ```
+
+<br>
+
+# Lvim Setting
+
+```
+brew install rebar3
+```
